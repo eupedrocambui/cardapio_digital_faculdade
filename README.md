@@ -1,114 +1,114 @@
-# Cardápio Digital para Restaurante Universitário - Unioeste
+# Digital Menu for University Restaurant - UNIOESTE
 
-Cardápio Digital Desenvolvido para Alunos e Funcionários que Frequentam os Restaurantes Universitários da Unioeste em Foz do Iguaçu.
+Digital menu developed for students and staff who attend the university restaurants at Unioeste in Foz do Iguaçu.
 
-**Acesse o Projeto:** https://cardapio-digital-unioeste.vercel.app
+**Access the Project:** https://cardapio-digital-unioeste.vercel.app
 
-## Objetivo
-O objetivo foi **criar um cardápio digital** para os restaurantes universitários da Unioeste, incluindo o campus Jardim Universitário (JU)
-e o CECE (Centro de Engenharias e Ciências Exatas), com a finalidade de oferecer uma forma mais **prática de visualizar as refeições disponibilizadas à comunidade.**
+## Objective
+The goal was to **create a digital menu** for Unioeste's university restaurants, including the Jardim Universitário (JU) campus
+and CECE (Centro de Engenharias e Ciências Exatas), aiming to offer a more **practical way to view the meals made available to the community.**
 
-## Problema Identificado
-Antes da implementação do projeto, o **acesso às informações era limitado**: no CECE, os estudantes só descobririam a refeição do dia ao se dirigirem 
-ao restaurante universitário ou por meio da troca informal de informações entre alunos, enquanto no campus Jardim Universitário, o cardápio era divulgado exclusivamente por meio do Instagram, dificultando o acesso àqueles que não utilizavam
-a rede social ou não possuíam acesso por outro motivo.
+## Identified Problem
+Before the project was implemented, **access to information was limited**: at CECE, students would only find out the meal of the day by going
+to the university restaurant or through informal exchange of information among students, while at the Jardim Universitário campus, the menu was published exclusively through Instagram, making it difficult for those who did not use
+the social network or did not have access for another reason.
 
-## Contexto Acadêmico
-O projeto foi elaborado na disciplina **"Introdução à Ciência da Computação"**, sendo desenvolvido ao longo do primeiro e segundo período da graduação.
+## Academic Context
+The project was developed for the **"Introduction to Computer Science"** course, being built over the first and second semesters of the degree.
 
-A disciplina foi ministrada pelos professores **Antonio Marcos Massao Hachisuca** e **Juan Carlos Sotuyo**, que contribuíram ativamente com orientações, sugestões e ideias que auxiliaram no aprimoramento do projeto, tanto em aspectos técnicos quanto conceituais.
+The course was taught by professors **Antonio Marcos Massao Hachisuca** and **Juan Carlos Sotuyo**, who actively contributed with guidance, suggestions, and ideas that helped improve the project, both in technical and conceptual aspects.
 
-## Tecnologias Utilizadas
+## Technologies Used
 - HTML
 - CSS
 - JavaScript
 
-Ao longo do desenvolvimento do projeto, foram aplicados diversos conceitos fundamentais de desenvolvimento web, tais como:
+Throughout the development of the project, several fundamental web development concepts were applied, such as:
 
-- Responsividade e adaptação para diferentes tamanhos de tela
-- Criação e modificação dinâmica de elementos da página
-- Aplicação do padrão arquitetural MVC (Model–View–Controller) em partes do projeto
-- Tratamento de eventos (cliques, carregamento da página, etc.)
-- Uso de requisições para carregamento dinâmico de conteúdo
-- Controle de fluxo da aplicação com JavaScript
-- Interatividade com o usuário
-- Boas práticas iniciais de desenvolvimento web
+- Responsiveness and adaptation to different screen sizes
+- Dynamic creation and modification of page elements
+- Application of the MVC (Model–View–Controller) architectural pattern in parts of the project
+- Event handling (clicks, page load, etc.)
+- Use of requests for dynamic content loading
+- Application flow control with JavaScript
+- User interactivity
+- Initial web development best practices
 
-## Principais Funcionalidades
-- **Exibição do Cardápio:**
+## Main Features
+- **Menu Display:**
 
-Exibição do cardápio diário dos restaurantes, permitindo que os usuários visualizem de forma rápida e acessível as refeições.
+Display of the restaurants' daily menu, allowing users to quickly and easily view the available meals.
 
-- **Sistema de Avaliações:**
+- **Rating System:**
 
-Implementação de um sistema completo de avaliações, no qual os usuários podem avaliar a refeição do dia e consultar o histórico de avaliações das refeições anteriores.
+Implementation of a complete rating system, in which users can rate the meal of the day and check the rating history of previous meals.
 
-- **Página de Contato e Feedback:**
+- **Contact and Feedback Page:**
 
-Disponibilização de uma página dedicada ao envio de feedbacks, sugestões ou comentários, possibilitando a comunicação direta dos usuários com os responsáveis pelo sistema.
+A dedicated page for sending feedback, suggestions, or comments, enabling direct communication between users and those responsible for the system.
 
-## Como Executar o Projeto Localmente
-1- Clone o Projeto:
+## How to Run the Project Locally
+1- Clone the Project:
 ```bash
 git clone https://github.com/pedrocambui06/cardapio-digital-unioeste.git
 ```
 
-2- Acesse o Diretório:
+2- Access the Directory:
 ```bash
 cd cardapio-digital-unioeste
 ```
 
-3- Abra o arquivo ```index.html``` em um navegador web (de preferência Google Chrome).
+3- Open the ```index.html``` file in a web browser (preferably Google Chrome).
 
-Obs: não é necessário instalar dependências adicionais pois o projeto utiliza apenas HTML, CSS e JavaScript.
+Note: no additional dependencies need to be installed, since the project uses only HTML, CSS, and JavaScript.
 
-## Estrutura do Projeto
+## Project Structure
 ```
 cardapio-digital-unioeste/
-├── images/                                  # Imagens utilizadas no site
-│   ├── 1_stars.png                          # Avaliação de 1 estrela
-│   ├── 2_stars.png                          # Avaliação de 2 estrelas
-│   ├── 3_stars.png                          # Avaliação de 3 estrelas
-│   ├── 4_stars.png                          # Avaliação de 4 estrelas
-│   ├── 5_stars.png                          # Avaliação de 5 estrelas
-│   ├── chef.png                             # Imagem ilustrativa de chef
-│   ├── favicon_unioeste.png                 # Favicon do site
-│   ├── foto_usuario.png                     # Imagem de usuário
-│   ├── icone_comida_hero.png                # Ícone de comida (hero section)
-│   ├── icone_garcom_hero.png                # Ícone de garçom (hero section)
-│   ├── icone_prato_hero.png                 # Ícone de prato (hero section)
-│   ├── logo_unioeste_branca_footer.png      # Logo da UNIOESTE (rodapé)
-│   ├── logo_unioeste_branca.png             # Logo da UNIOESTE (versão branca)
-│   ├── logo_unioeste.png                    # Logo padrão da UNIOESTE
-│   └── prato_hero.png                       # Imagem principal (hero section)
-├── scripts/                                 # Arquivos JavaScript
-│   ├── avaliacoes.js                        # Lógica do sistema de avaliações
-│   ├── cardapioDigital.js                   # Controle e exibição do cardápio (home page)
-│   ├── contato.js                           # Funcionalidades da página de contato
-│   ├── footer.js                            # Comportamento e exibição do rodapé
-│   ├── header.js                            # Comportamento e exibição do cabeçalho
-│   └── refeicaoAvaliada.js                  # Lógica da página de refeição avaliada
-├── styles/                                  # Arquivos de estilização CSS
-│   ├── avaliacoes.css                       # Estilos da página de avaliações
-│   ├── cardapioDigital.css                  # Estilos da home page
-│   ├── contato.css                          # Estilos da página de contato
-│   ├── footer.css                           # Estilos do rodapé
-│   ├── header.css                           # Estilos do cabeçalho
-│   ├── obrigado.css                         # Estilos da página de obrigado (contato)
-│   ├── obrigadoAvaliacao.css                # Estilos da página de obrigado (avaliações)
-│   └── refeicaoAvaliada.css                 # Estilos da página de refeição avaliada
-├── README.md                                # Este arquivo
-├── avaliacoes.html                          # Página de avaliações
-├── contato.html                             # Página de contato
-├── footer.html                              # Estrutura do rodapé
-├── header.html                              # Estrutura do cabeçalho
-├── index.html                               # Página principal (home page)
-├── obrigado.html                            # Página de obrigado (contato)
-├── obrigadoAvaliacao.html                   # Página de obrigado (avaliações)
-└── refeicaoAvaliada.html                    # Página de refeição avaliada
+├── images/                                  # Images used on the site
+│   ├── 1_stars.png                          # 1-star rating
+│   ├── 2_stars.png                          # 2-star rating
+│   ├── 3_stars.png                          # 3-star rating
+│   ├── 4_stars.png                          # 4-star rating
+│   ├── 5_stars.png                          # 5-star rating
+│   ├── chef.png                             # Illustrative chef image
+│   ├── favicon_unioeste.png                 # Site favicon
+│   ├── foto_usuario.png                     # User image
+│   ├── icone_comida_hero.png                # Food icon (hero section)
+│   ├── icone_garcom_hero.png                # Waiter icon (hero section)
+│   ├── icone_prato_hero.png                 # Dish icon (hero section)
+│   ├── logo_unioeste_branca_footer.png      # UNIOESTE logo (footer)
+│   ├── logo_unioeste_branca.png             # UNIOESTE logo (white version)
+│   ├── logo_unioeste.png                    # UNIOESTE default logo
+│   └── prato_hero.png                       # Main image (hero section)
+├── scripts/                                 # JavaScript files
+│   ├── avaliacoes.js                        # Rating system logic
+│   ├── cardapioDigital.js                   # Menu control and display (home page)
+│   ├── contato.js                           # Contact page functionality
+│   ├── footer.js                            # Footer behavior and display
+│   ├── header.js                            # Header behavior and display
+│   └── refeicaoAvaliada.js                  # Rated meal page logic
+├── styles/                                  # CSS styling files
+│   ├── avaliacoes.css                       # Rating page styles
+│   ├── cardapioDigital.css                  # Home page styles
+│   ├── contato.css                          # Contact page styles
+│   ├── footer.css                           # Footer styles
+│   ├── header.css                           # Header styles
+│   ├── obrigado.css                         # Thank-you page styles (contact)
+│   ├── obrigadoAvaliacao.css                # Thank-you page styles (ratings)
+│   └── refeicaoAvaliada.css                 # Rated meal page styles
+├── README.md                                # This file
+├── avaliacoes.html                          # Ratings page
+├── contato.html                             # Contact page
+├── footer.html                              # Footer structure
+├── header.html                              # Header structure
+├── index.html                               # Main page (home page)
+├── obrigado.html                            # Thank-you page (contact)
+├── obrigadoAvaliacao.html                   # Thank-you page (ratings)
+└── refeicaoAvaliada.html                    # Rated meal page
 
 ```
 
 ---
 
-Feito por [Pedro C. Martins](https://github.com/pedrocambui06)
+Made by [Pedro C. Martins](https://github.com/pedrocambui06)
